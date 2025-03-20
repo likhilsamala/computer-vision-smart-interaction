@@ -14,5 +14,5 @@ This project implements a real-time object detection system using YOLOv8 and Ope
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/computer-vision-smart-interaction.git
+git clone https://github.com/likhilsamala/computer-vision-smart-interaction
 cd computer-vision-smart-interaction
