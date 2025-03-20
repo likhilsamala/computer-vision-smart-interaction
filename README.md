@@ -10,9 +10,24 @@ This project implements a real-time object detection system using YOLOv8 and Ope
 - Optimized for speed and efficiency
 - User-friendly interface with Streamlit
 
+## Project Structure
+computer-vision-smart-interaction/
+├── main.py              # Streamlit web interface
+├── train.py             # Model training module
+├── detect.py            # Real-time detection module
+├── models/              # Trained models
+├── data/                # Dataset and class names
+│   └── coco_classes.json
+├── datasets/            # Downloaded datasets
+│   └── coco/
+├── requirements.txt     # Project dependencies
+└── README.md            # Project documentation
+-Above, we can also download datasets, train our models, and store them.
+
 ## Installation
 
 1. Clone this repository:
 ```bash
 git clone https://github.com/likhilsamala/computer-vision-smart-interaction
 cd computer-vision-smart-interaction
+
